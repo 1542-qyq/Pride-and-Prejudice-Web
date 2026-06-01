@@ -1,0 +1,935 @@
+@-webkit-keyframes slide-in-right{
+    0%{
+        -webkit-transform:translateX(1000px);
+        transform:translateX(1000px);
+        opacity:0;
+    } 
+    100%{
+        -webkit-transform:translateX(0px);
+        transform:translateX(0px);
+        opacity:1; 
+    }
+}
+@keyframes slide-in-right{
+    0%{
+        transform:translateX(1000px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0px);
+        opacity:1;
+    }
+}
+@-webkit-keyframes bounce-in-right{
+    0%{
+        -webkit-transform:translateX(600px);
+        transform:translateX(600px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function:ease-in;
+        opacity:0;
+    } 
+    38%{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out;
+        opacity:1; 
+    }
+    55%{
+        -webkit-transform:translateX(68px);
+        transform:translateX(68px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function: ease-in; 
+    }
+    72%{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out; 
+    }
+    81%{
+        -webkit-transform:translateX(32px);
+        transform:translateX(32px);
+        -webkit-animation-timing-function:ease-in; 
+        animation-timing-function:ease-in;
+    }
+    90%{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out; 
+    }
+    95%{
+        -webkit-transform:translateX(8px);
+        transform:translateX(8px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function:ease-in; 
+    }
+    100%{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out; 
+    }
+}
+@keyframes bounce-in-right{
+    0%{
+        transform:translateX(600px);
+        animation-timing-function:ease-in;
+        opacity:0;
+    }
+    38%{
+        transform:translateX(0);
+        animation-timing-function:ease-out;
+        opacity:1;
+    } 
+    55%{
+        transform:translateX(68px);
+        animation-timing-function:ease-in; 
+    }
+    72%{
+        transform:translateX(0);
+        animation-timing-function:ease-out; 
+    }
+    81%{
+        transform:translateX(32px);
+        animation-timing-function:ease-in; 
+    }
+    90%{
+        transform:translateX(0);
+        animation-timing-function:ease-out; 
+    }
+    95%{
+        transform:translateX(8px);
+        animation-timing-function:ease-in;
+    }
+    100%{
+        transform:translateX(0);
+        animation-timing-function:ease-out;
+    }
+}
+@-webkit-keyframes heartbeat{
+  from{
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    -webkit-transform-origin:center center;
+    transform-origin:center center;
+    -webkit-animation-timing-function:ease-out;
+    animation-timing-function:ease-out;
+  } 
+  10%{
+    -webkit-transform:scale(0.70);
+    transform:scale(0.70);
+    -webkit-animation-timing-function:ease-in;
+    animation-timing-function:ease-in; 
+  }
+  17%{
+    -webkit-transform:scale(0.93);
+    transform:scale(0.93);
+    -webkit-animation-timing-function:ease-out;
+    animation-timing-function:ease-out;
+  }
+  33%{
+    -webkit-transform:scale(0.87);
+    transform:scale(0.87); 
+    -webkit-animation-timing-function:ease-in;
+    animation-timing-function:ease-in;
+  }
+  45%{
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    -webkit-animation-timing-function:ease-out;
+    animation-timing-function:ease-out; 
+  }
+}
+@keyframes heartbeat{
+    0%{
+        transform:scale(1);
+        transform-origin:center center;
+        animation-timing-function: ease-out;
+    } 
+    10%{
+        transform:scale(0.70);
+        animation-timing-function:ease-in; 
+    }
+    17%{
+        transform:scale(0.93);
+        animation-timing-function:ease-out; 
+    }
+    33%{
+        transform:scale(0.87);
+        animation-timing-function:ease-in; 
+    }
+    45%{
+        transform:scale(1);
+        animation-timing-function:ease-out; 
+    }
+
+}
+@-webkit-keyframes bounce-in-top{
+    0%{
+        -webkit-transform:translateY(-500px);
+        transform:translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function:ease-in;
+        opacity:0;
+    } 
+    38%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+        -webkit-animation-timing-function:ease-out; 
+        animation-timing-function:ease-out;
+        opacity:1;
+    }
+    55%{
+        -webkit-transform:translateY(-65px);
+        transform:translateY(-65px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function:ease-in; 
+    }
+    72%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out;
+    }
+    81%{
+        -webkit-transform:translateY(-28px);
+        transform:translateY(-28px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function:ease-in;
+    }
+    90%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+        -webkit-animation-timing-function:ease-out;
+        animation-timing-function:ease-out;
+    }
+    95%{
+        -webkit-transform:translateY(-8px);
+        transform:translateY(-8px);
+        -webkit-animation-timing-function:ease-in;
+        animation-timing-function:ease-in;
+    }
+    100%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+        -webkit-animation-timing-function:ease-out;     
+        animation-timing-function:ease-out;  
+    }
+}
+@keyframes bounce-in-top{
+    0%{
+        transform:translateY(-500px);
+        animation-timing-function:ease-in;
+        opacity:0;
+    }
+    38%{
+        transform:translateY(0);
+        animation-timing-function:ease-out;
+        opacity:1;
+    }
+    55%{
+        transform:translateY(-65px);
+        animation-timing-function:ease-in;
+    }
+    72%{
+        transform:translateY(0);
+        animation-timing-function:ease-out;
+    }
+    81%{
+        transform:translateY(-28px);
+        animation-timing-function:ease-in;
+    }
+    90%{
+        transform:translateY(0);
+        animation-timing-function:ease-out;
+    }
+    95%{
+        transform:translateY(-8px);
+        animation-timing-function:ease-in;
+    }
+    100%{
+        transform:translateY(0);
+        animation-timing-function:ease-out;
+    }
+}
+@-webkit-keyframes roll-in-left{
+    0%{
+        -webkit-transform:translateX(-800px) rotate(-540deg);
+        transform:translateX(-800px) rotate(-540deg);
+        opacity:0;
+    }
+    100%{
+        -webkit-transform:translateX(0) rotate(0deg);
+        transform:translateX(0) rotate(0deg);
+        opacity:1; 
+    } 
+}
+@keyframes roll-in-left{
+    0%{
+        transform:translateX(-800px) rotate(-540deg);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0) rotate(0deg);
+        opacity:1;
+    }
+}
+@keyframes tracking-in-expand{
+    0%{
+        letter-spacing:-.5em;
+        opacity:0;
+    }
+    40%{
+        opacity:0.6;
+    }
+    100%{
+        opacity:1; 
+    }
+}
+/* 核心动画定义 ------------------------------------------------- */
+@keyframes spin {
+    /* 旋转动画（用于刷新按钮） */
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); } /* 完整旋转一圈 */
+}
+
+@keyframes bounce-in-right {
+    /* 右侧弹入动画（用于星星元素） */
+    0% { transform: translateX(600px); opacity: 0; } /* 初始位置在右侧外 */
+    38% { transform: translateX(0); opacity: 1; }   /* 快速进入主位置 */
+    /* ...后续关键帧实现弹性效果... */
+}
+
+@keyframes heartbeat {
+    /* 心跳动画（用于星星元素） */
+    0% { transform: scale(1); }        /* 正常尺寸 */
+    10% { transform: scale(0.70); }   /* 收缩 */
+    17% { transform: scale(0.93); }   /* 回弹 */
+    /* ...后续关键帧形成心跳节奏... */
+}
+
+/* 主要布局样式 ------------------------------------------------- */
+.frame {
+    /* 主框架居中定位 */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -330px;  /* 通过负边距实现垂直居中 */
+    margin-left: -467.5px; /* 通过负边距实现水平居中 */
+    background: #545c43;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5); /* 添加投影增强层次感 */
+}
+
+
+/* 图标旋转控制 ------------------------------------------------ */
+.return i.fa-rotate-right {
+    display: inline-block;
+    transition: transform 0.3s; /* 普通状态下的悬停过渡效果 */
+    transform-origin: center center; /* 确保围绕图标中心旋转 */
+}
+
+.return i.fa-rotate-right:hover {
+    animation: spin 0.6s linear 1 forwards; /* 悬停时触发单次快速旋转 */
+    -webkit-animation: spin 0.6s linear 1 forwards; /* 兼容Webkit内核浏览器 */
+}
+
+/* 响应式布局元素 ---------------------------------------------- */
+.mother {
+    /* 根容器尺寸设置 */
+    width: 100%;
+    height: 100%; /* 撑满父容器 */
+}
+
+.picWRAP_1 {
+    /* 图片容器动画效果 */
+    animation: roll-in-left 0.4s ease-out both; /* 左侧滚入动画 */
+    overflow: hidden; /* 隐藏溢出内容 */
+}
+
+/* 导航栏动画 ------------------------------------------------- */
+.navCONTAINER {
+    /* 底部导航栏动画 */
+    animation: slide-in-bottom 3s cubic-bezier(0.25,0.46,0.45,0.94) 1s both;
+    -webkit-animation: slide-in-bottom 3s cubic-bezier(0.25,0.46,0.45,0.94) 1s both;
+}
+
+html{
+    line-height:1.15;
+    -webkit-text-size-adjust: 100%;
+}
+.mother{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: block;
+    background: url(./pictures/背景.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.frame{
+    position: fixed;
+    background: #545c43;
+    top: 50%;
+    left: 50%;
+    margin-top: -330px;
+    margin-left: -467.5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.frame, .container, .box{
+    width: 935px;
+    height: 622px;
+    transition:width 0.25s ease-out;
+    -webkit-transition: width 0.25s ease-out;
+}
+
+.return{
+    width: 30px;
+    height: 42px;
+    line-height: 53px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top:0px;
+    z-index: 20;
+    background: #e6dbc4;
+    color: #4d616c;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;/*底部圆角效果*/
+    animation:bounce-in-top 1.1s 3s both;
+}
+a{
+    transition:0.25s ease-out;
+    -webkit-transition: 0.25s ease-out;
+    text-decoration:none;
+
+}
+a:-webkit-any-link{
+    cursor:pointer;
+}
+:host, :root{
+    --fa-style-family-classic:"Font Awesome 6 Free";
+    --fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root{
+    --fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free"; 
+}
+:host, :root{
+    --fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands";
+    --fa-style-family-brands:"Font Awesome 6 Brands"; 
+}
+/* Solid图标左侧间距修正 */
+.fa-solid {
+    padding-left: 0px; /* 消除默认间距 */
+}
+.fa-redo:before{
+    content: "\f01e" !important; /* 旋转箭头图标 */
+}
+
+.return i.fa-rotate-right{
+    display: inline-block;
+    transition: transform 0.3s;
+    /* animation: spin 2s linear infinite;   */
+    transform-origin: center center; /* 确保围绕中心旋转 */
+}
+
+.return i.fa-rotate-right:hover{
+    animation: spin 0.6s linear 1 forwards; /* 悬停时快速旋转 */
+    -webkit-animation: spin 0.6s linear 1 forwards; /* 兼容WebKit浏览器 */;
+}
+
+/* 品牌图标单独设置 */
+.fa-brands, .fab {
+    font-family: var(--fa-style-family-brands, "Font Awesome 6 Brands");
+    font-weight: 400; /* 品牌图标固定为400权重 */
+}
+
+/* 修正品牌图标变量定义 */
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+}
+
+.fa-brands:before {
+    --fa: "\f09b"; /* 示例值，具体值需根据图标更换 */
+}
+
+.container{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    clear: left;
+}
+
+.calif{
+    width: 674px;
+    height: 547px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background:transparent;
+    background-position: right top;
+    background-size: contain;
+    animation:slide-in-right 1s cubic-bezier(0.250,0.460,0.940) 1.5s both;
+}
+.star{
+    position: absolute;
+    right: 115px;
+    top:405px;
+    animation:bounce-in-right 3s 4s both,heartbeat 1.5s ease-in-out 7s infinite;
+}
+#slide{
+    transition: transform 200ms ease-in-out 0ms;
+    -moz-transition: -moz-transform 200ms ease-in-out 0ms;
+    -webkit-transition: -webkit-transform 200ms ease-in-out 0s;
+}
+
+#first{
+    top: 0px;
+    left: 0px;
+}
+.box{
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    color: #fff;
+}
+.infoWRAP{
+    width: 100%;
+    float: left;
+    padding:35px;
+    position: relative;
+}
+roll-in-left animation{
+    transform:translateX(0px) rotate(0deg);
+    opacity:1;
+}
+.picWRAP_1{
+    width: 351px;
+    height: 458px;
+    /* float: left; */
+    position: relative;
+    display: inline-block;
+    animation: roll-in-left 0.4s ease-out both;
+    overflow: hidden;
+}
+.picWRAP_1 img{
+   max-width: 325px;
+   max-height:100%;
+   margin-right: 12px;
+   padding: 12px;
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0; 
+}
+img{
+    border-style:none;
+}
+.topRIGHT{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 75;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.lowLEFT{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 75;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.slideWRAP{
+    width: 476px;
+    float: left;
+    background: transparent;
+    margin-left: 50px;
+    margin-top: 18px;
+    position: absolute;
+    top:35px;
+    right: 45px;
+    z-index: 10;
+}
+.name{
+    width: 100%;
+    height: 42px;
+    line-height: 40px;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 300;
+    font-size: 2.1em;
+    color: #fff;
+    letter-spacing: 2px;
+    /* text-transform: lowercase; */
+    float: left;
+    animation:tracking-in-expand 0.7s cubic-bezier(0.215,0.610,0.355,1.000) 3s both;
+}
+.org{
+    color: #e6dbc4;
+}
+slide-in-right animation{
+    transform:translateX(0px);
+    opacity: 1;
+}
+.title{
+    width: 474px;
+    white-space: normal;
+    height: 46px;
+    margin-top: 13px;
+    line-height: 1.6;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 2px;/* 字母间距 */
+    border-bottom: 1px solid #e6dbc4;
+    animation:slide-in-right 2s cubic-bezier(0.250,0.460,0.450,0.940) 2s both;
+    float: left;
+}
+.specWRAP{
+    float: left;
+    margin-top: -4px;
+    animation:slide-in-right 2s cubic-bezier(0.250,0.460,0.450,0.940) 3s both;
+}
+
+.specWRAP_1{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    letter-spacing: 1px;
+    width: 474px; 
+    height: 70px;
+}
+.specWRAP_1 ul{
+    list-style-type: none; 
+    width: 474px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.specWRAP_1_left{
+    width: 120px;
+    display:inline-block;
+    align-self: center;
+    color: #e6dbc4;
+    font-size: 20px;
+    text-align: center;
+}
+.specWRAP_1_right{
+    width: 350px;
+    display:inline-block;
+    /* 合并空白符，换行 */
+    white-space: normal;
+    margin-left: 5%;
+    text-align: center;
+}
+#second{
+    top: 0px;
+    left:935px;
+}
+#third{
+    top: 0px;
+    left: 1870px;
+}
+#fourth{
+    top: 0px;
+    left: 2805px; 
+}
+#fifth{
+    top: 0px;
+    left: 3740px;
+}
+#sixth{
+    top: 0px;
+    left: 4675px;
+}
+#seventh{
+    top: 0px;
+    left: 5610px;
+}
+#eighth{
+    top: 0px;
+    left: 6545px;
+}
+#ninth{
+    top: 0px;
+    left: 7480px;
+}
+#tenth{
+    top: 0px;
+    left: 8415px;
+}
+#eleventh{
+    top: 0px;
+    left: 9350px;
+}
+#twelfth{
+    top: 0px;
+    left: 10285px;  
+}
+/* 页面切换动画类 ------------------------------------------------- */
+.move-to-first {
+    transform:translateX(0px);  /* 显示第一个页面 */
+    -moz-transform:translateX(0px);
+    -webkit-transform:translateX(0px);
+}
+
+.move-to-second {
+    transform:translateX(-935px); /* 向左平移一个页面宽度（935px）*/
+    -moz-transform:translateX(-935px);
+    -webkit-transform:translateX(-935px); 
+}
+
+/* 其他move-to类遵循相同模式，每个页面间隔935px */
+.move-to-third {
+    transform:translateX(-1870px);
+    -moz-transform:translateX(-1870px);
+    -webkit-transform:translateX(-1870px); 
+}
+.move-to-fourth {
+    transform:translateX(-2805px);
+    -moz-transform:translateX(-2805px);
+    -webkit-transform:translateX(-2805px); 
+}
+.move-to-fifth {
+    transform:translateX(-3740px); 
+    -moz-transform:translateX(-3740px);
+    -webkit-transform:translateX(-3740px);
+}
+.move-to-sixth {
+    transform:translateX(-4675px);
+    -moz-transform:translateX(-4675px);
+    -webkit-transform:translateX(-4675px); 
+}
+.move-to-seventh {
+    transform:translateX(-5610px);
+    -moz-transform:translateX(-5610px);
+    -webkit-transform:translateX(-5610px); 
+}
+.move-to-eighth {
+    transform:translateX(-6545px);
+    -moz-transform:translateX(-6545px);
+    -webkit-transform:translateX(-6545px); 
+}
+.move-to-ninth {
+    transform:translateX(-7480px); 
+    -moz-transform:translateX(-7480px);
+    -webkit-transform:translateX(-7480px);
+}
+.move-to-tenth {
+    transform:translateX(-8415px);
+    -moz-transform:translateX(-8415px);
+    -webkit-transform:translateX(-8415px); 
+}
+.move-to-eleventh {
+    transform:translateX(-9350px);
+    -moz-transform:translateX(-9350px);
+    -webkit-transform:translateX(-9350px);
+}
+.move-to-twelfth {
+    transform:translateX(-10285px);
+    -moz-transform:translateX(-10285px);
+    -webkit-transform:translateX(-10285px); 
+}
+.navCONTAINER {
+    width: 100%;
+    height: 120px;
+    position: absolute; 
+    z-index: 999;
+    top:510px;
+    left: 0;
+    /* background: #2F2F2F; 添加背景色 */
+    -webkit-animation: slide-in-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    animation: slide-in-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.navTOP {
+    width: 100%;
+    height: 25px;
+    float: left;
+    background: transparent;
+    position: absolute;
+}
+#svg-container {
+    display:flex;
+    align-items: center;
+    height: 100%;
+}
+
+#svg-1 {
+    margin: 0 auto;
+    display: block;
+    opacity: 0;
+}
+svg {
+    height: 25px;
+    width: 25px;
+}
+svg:not(:root) {
+    overflow: hidden;
+    overflow-clip-margin:content-box;
+}
+
+:not(svg) {
+    transform-origin:0px 0px;
+}
+
+.activeARROW_1 {
+    width: 77px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both; 
+    /* 箭头滑入动画：持续0.5秒，延迟5秒执行，保持最终状态 */
+}
+
+/* 其他activeARROW类遵循相同动画配置 */
+.activeARROW_2 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_3 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_4 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_5 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_6 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_7 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_8 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+
+.activeARROW_9 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_10 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+.activeARROW_11 {
+    width:78px;
+    float:right;
+    animation:activeSLIDE 0.5s cubic-bezier(0.25,0.46,0.45,0.94) 5s both;
+}
+.activeARROW_12 {
+    width: 78px;
+    float: right;
+    animation: activeSLIDE 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+}
+#tab12 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+.tab {
+    height: 95px;
+    width: 77px;
+    margin-top:25px;
+    line-height: 95px;
+    text-align:center;
+    color: #e6dbc4;
+    font-family:'Open Sans',sans-serif;
+    text-transform: uppercase; /* 英文转大写 */
+    /* cursor:pointer; */
+    border-left:1px solid #1c1c1c;
+    font-size:14px;
+    font-weight: 600;
+    float:right;
+    /* transition:all 0.3s ease;  所有属性变化添加过渡效果 */
+    animation: tracking-in-expand 0.7s both; /* 文字间距展开动画 */
+}
+
+/* 选项卡激活状态 */
+.tab.active {
+    background: #e6dbc4;  /* 激活时背景色变化 */
+    color: #4d616c;       /* 激活时文字颜色变化 */
+}
+
+/* 选项卡图标背景设置 */
+#tab11 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;  /* 图标右对齐 */
+}
+
+/* 其他选项卡遵循相同背景配置 */
+#tab10 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab9 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab8 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab7 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab6 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab5 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab4 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab3 {
+    background: url(./pictures/icon.png) no-repeat;
+    background-position:center right;
+}
+#tab2 {
+    background: url(./pictures/Jane-icon.png) no-repeat;
+    background-position:center right;
+}
+#tab1 {
+    background: url(./pictures/Elizabeth-icon.png) no-repeat;
+    background-position:center right;
+}
